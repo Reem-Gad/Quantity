@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:id="@+id/blush"
+        android:layout_gravity="center"
+        android:layout_marginTop="1dp"
+        android:src="@drawable/co" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:fontFamily="monospace"
+        android:text="Quantity"
+        android:textColor="#756B6F"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:background="@drawable/back"
+        android:id="@+id/plu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="  + "
+        android:textSize="25sp"
+        android:onClick="plus"
+
+        />
+    <TextView
+        android:id="@+id/zero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:textColor="#756B6F"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:text="0"
+        android:layout_marginTop="10dp"
+
+        />
+    <Button
+        android:background="@drawable/back"
+        android:id="@+id/minus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="  - "
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:onClick="minus"
+
+        />
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="price"
+        android:textColor="#756B6F"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/te_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:textColor="#756B6F"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:text="0 "
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:background="@drawable/back"
+        android:id="@+id/order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:text="Order"
+        android:textSize="25sp"
+        android:fontFamily="monospace"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:onClick="order"
+
+        />
+
+
+
+
+
+</LinearLayout>
